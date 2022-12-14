@@ -1,0 +1,172 @@
+.hidden{
+    display: none;
+}
+
+.navBar{
+    width: 80%;
+    margin: 0 auto;
+}
+head{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#2f9c9c;
+    font-weight: 400;
+    background-color: rgba(0,0,0,.25);
+}
+
+header ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 70px;
+
+    position: relative;
+}
+
+nav a{
+    color:rgb(236, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+.logo{
+    width: 80px;
+    margin: 0;
+    float: left;
+    padding: 10px 0;
+}
+
+nav{
+    margin: 0;
+    float: right;
+}
+
+#todo-list{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:ghostwhite;
+}
+
+.weather{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:ghostwhite;
+    margin: 5px;
+}
+
+#greeting{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color:ghostwhite;
+    font-variant-caps: all-small-caps;
+    font-variant-ligatures: historical-ligatures;
+    margin: 0;
+    padding: 0;
+}
+
+#clock{
+    text-align: center;
+    text-decoration: dotted ;
+    top: 50%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    color:ghostwhite;
+    font-style: normal;
+    margin: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background0.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1536px 824px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#quote #q{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #daffff;
+    text-align: center;
+    position:relative;
+    top: 10px;
+    margin: 0;
+}
+
+#quote #aut{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #daffff;
+    text-align: center;
+    position:relative;
+    top: 10px;
+    margin: 0;
+}
+
+.frame{
+    position: absolute;
+    top: 500px;
+    left: 70%;
+    margin: 0;
+    width: 30%;
+    color:floralwhite;
+    margin: 0;
+}
+
+.masterpiece{
+    width: 50%;
+    position: relative;
+    margin: 0;
+    float: left;
+    vertical-align: top;
+}
+
+.name{
+    font-size: 0.8vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

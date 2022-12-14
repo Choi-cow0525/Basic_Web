@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content="width=device-width", initial-scale=1/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>First Application</title>
+    </head>
+    <body>        
+        <header>
+            <div class = "navBar">
+                <img src="img/logo_word.png" alt="logo" class="logo">
+                <nav>
+                    <ul>
+                        <li class="menu"><a href='https://news.naver.com/'>ECONOMY</a></li>
+                        <li class="menu"><a href='https://developer.mozilla.org/en-US/'>WEBSITE</a></li>
+                        <li class="menu"><a href='https://portal.kaist.ac.kr'>KAIST</a></li>
+                        <li class="menu"><a href='#'>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <!--to trigger validation it should be form-->
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <!--<button>Log In</button>-->
+        <input type="submit" value="Log-In"/>
+    </form>
+    <h1 class="hidden" id="greeting">
+        HelloBello
+    </h1>
+    <h2 id="clock">00:00:00</h2>
+    <div id="quote">
+        <div id="q">
+            <span></span>
+        </div>
+        <div id="aut">
+            <span></span>
+        </div>
+    </div>
+    <div class="frame">
+        <img class="masterpiece" src=" " alt="This is the picture">
+        <h3 class="name">
+            The Milkmaid (Vermeer)
+            <br>
+            Milkmaid (Dutch: De Melkmeid or Het Melkmeisje), sometimes called The Kitchen Maid,
+            is an oil-on-canvas painting of a "milkmaid", in fact, a domestic kitchen maid,
+            by the Dutch artist Johannes Vermeer. It is now in the Rijksmuseum in Amsterdam,
+            the Netherlands, which regards it as "unquestionably one of the museum's finest attractions"
+        </h3>
+    </div>
+
+    <div class="weather">
+        <span id="city"></span>
+        <span id="state"></span>
+    </div>
+
+    <form id="todo-form">
+        <input type="text" placeholder = "Insert TODO" required />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <a href="https://nomadcoders.co">Go to courses</a>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/backgrounds.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    </body>
+</html>
