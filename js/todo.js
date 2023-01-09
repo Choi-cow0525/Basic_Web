@@ -14,7 +14,7 @@ function paintTodo(newTodoObj){
     newli.id = newTodoObj.id;
     newli.appendChild(newspan);
     newli.appendChild(button);
-    todoList.appendChild(newli);
+    todoList.appendChild(newli); 
 };
 
 function saveTodo(){

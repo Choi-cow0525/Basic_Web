@@ -122,7 +122,7 @@ body{
     padding: 0;
     background-image: url("../img/background0.jpg"); 
     background-repeat: no-repeat;
-    background-size: 1536px 824px;
+    background-size: cover; /*1536px 824px;*/
     background-attachment: fixed;
     background-position: center;
 }
@@ -150,7 +150,7 @@ body{
 
 .frame{
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: 70%;
     margin: 0;
     width: 30%;
