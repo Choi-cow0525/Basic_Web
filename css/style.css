@@ -69,31 +69,6 @@ nav a:hover::before{
 }
 
 
-.logo{
-    width: 80px;
-    margin: 0;
-    float: left;
-    padding: 10px 0;
-}
-
-nav{
-    margin: 0;
-    float: right;
-}
-
-#todo-list{
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:ghostwhite;
-}
-
-.weather{
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:ghostwhite;
-    margin: 5px;
-}
-
 #greeting{
     text-align: center;
     text-decoration: wavy;
@@ -127,6 +102,17 @@ body{
     background-position: center;
 }
 
+.logo{
+    width: 80px;
+    margin: 0;
+    float: left;
+    padding: 10px 0;
+}
+
+nav{
+    margin: 0;
+    float: right;
+}
 
 #quote #q{
     font-family: 'Times New Roman', Times, serif;
@@ -148,25 +134,55 @@ body{
     margin: 0;
 }
 
-.frame{
-    position: absolute;
-    top: 480px;
-    left: 70%;
-    margin: 0;
-    width: 30%;
-    color:floralwhite;
-    margin: 0;
-}
-
-.masterpiece{
-    width: 50%;
+.weather{
     position: relative;
-    margin: 0;
-    float: left;
-    vertical-align: top;
+    top: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+    /*margin: 5px;*/
+    text-align: center;
+    font-weight: 500;
+    width:100%
 }
 
-.name{
-    font-size: 0.8vmin;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#todo{
+    position: relative;
+    top: 80px;
+    /*  display: inline-block; */
+    width: 250px;
+    margin: 0px auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+#input1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(24, 24, 159);
+    width: 150px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#input2{
+    /* top: 60%; */
+    /* position: absolute; */
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(24, 24, 159);
+    width: 70px;
+    height: 26px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#todo-list{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
 }
